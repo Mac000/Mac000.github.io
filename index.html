@@ -6,6 +6,6 @@ document.getElementById("text").innerHTML = "Text added by JavaScript code";
 //   axios.get('https://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid=440&count=3&maxlength=300&format=json')
 //    .then( response => console.log(response.data) );
  
- axios.get('https://api.steampowered.com/ISteamNews/GetNewsForApp/v2')
+ axios.get('https://api.steampowered.com/ISteamNews/GetNewsForApp/v2?appid=440')
    .then( response => console.log(response.data) );
 </script>
