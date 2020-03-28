@@ -7,5 +7,5 @@ document.getElementById("text").innerHTML = "Text added by JavaScript code";
 //    .then( response => console.log(response.data) );
  
  axios.get('https://api.steampowered.com/ISteamNews/GetNewsForApp/v2?appid=440')
-   .then( response => console.log(response.data.appnews) );
+   .then( response => console.log(response.data.appnews.newsitems.0) );
 </script>
